@@ -1,8 +1,12 @@
 package logica;
 
+import e.javier.dam.Partidos;
+import javafx.collections.ObservableList;
+
 public class Logica {
 
     private static Logica INSTANCE = null;
+    private static ObservableList<Partidos>p=null;
 
     private Logica(){
 

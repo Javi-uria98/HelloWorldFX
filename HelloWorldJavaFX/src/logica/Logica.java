@@ -20,6 +20,10 @@ public class Logica {
         return INSTANCE;
     }
 
+    public String toString(){
+	return "Esto es un fork";
+    }
+
 
     //Para crear un Singleton -constructor privado-. Por ejemplo, en el ejercicio de GestorPartidosLayout, en esta clase iria la observableList
 
